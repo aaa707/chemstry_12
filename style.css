@@ -1,7 +1,7 @@
 body {
   background: #101318;
   text-shadow: 0 0 0.4vw currentColor;
-  overflow: scroll;
+  overflow: auto;
 }
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -38,7 +38,7 @@ body {
 
 
 html{
-  overflow: hidden;
+  overflow: auto;
 }
 
 #scw {
@@ -51,7 +51,7 @@ html{
 
 .wrapper {
   position: relative;
-  overflow: hidden;
+  overflow: auto;
   padding: 2%;
   width: 85%;
   margin-left: 5%;
